@@ -1,0 +1,190 @@
+/*PAGINA DE INICIO*/
+html {
+    background-image: url(img/restaurante.png); width: 1500px; height: 1500px;
+    /*background-attachment: fixed;
+    background-position: center center;*/
+    
+    
+}
+
+body {
+
+    /*overflow: scroll;
+    margin: 0 auto;*/
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #313131bb;
+    padding: 1%;
+    color: white;
+    background-attachment: fixed;
+    background-position: center center;
+    
+}
+
+#container {
+    width: 1200px;
+    height: 200px;
+    margin: 0px;
+}
+
+
+header {
+    width: 1200px;
+    height: 200px;
+    background: url(img/encabezadopizza1.png);
+}
+
+header ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    /*list-style-type: none;
+    text-align: center;*/
+
+}
+
+header li {
+
+    float: left;
+    /*display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;*/
+
+
+}
+
+header li a {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    /* padding: 2px 7px 2px 7px;
+    margin: 0 200px 0 0;
+    color: rgb(0, 0, 0);
+    background-color: beige;
+    border: 1px solid #ccc;
+    text-decoration: none;*/
+}
+
+header li a:hover {
+
+    background-color: #111;
+    /*background-color: #333333;
+    color: #635a5a;*/
+}
+
+
+
+
+
+
+
+
+
+/*PAGINA DE NOSOTROS*/
+
+.subtitulocontacto {
+    margin-left: 16rem;
+}
+
+.imagencontacto {
+    position: relative;
+    border-radius: 100px;
+    margin: 10vh;
+    margin-left: 165px;
+}
+
+
+/*PAGINA DE RECETAS*/
+
+.menurecetas {
+    list-style-type: none;
+}
+
+.menurecetas li {
+    display: inline;
+    position: relative;
+    margin-left: 12rem;
+}
+
+/*Carbonara*/
+.comidauno {
+    margin-left: 16rem;
+    margin-top: 50px;
+}
+
+
+/*Asado*/
+
+.comidados {
+    margin-left: 16rem;
+    margin-top: 50px;
+}
+
+
+/*PAGINA DE INFO ADICIONAL*/
+
+.menuadicional {
+    list-style-type: none;
+}
+
+
+.menuadicional li {
+    display: inline;
+    position: relative;
+    margin-left: 12rem;
+}
+
+
+.restaurantes {
+    list-style-type: none;
+}
+
+.restaurantes li {
+    display: inline;
+    position: relative;
+    margin-left: 70px;
+}
+
+
+.pie {
+    margin-top: 65vh;
+}
+
+.mesada {
+    margin: 10px 10px 10px 300px;
+}
+
+/*CONTACTO*/
+
+.menucontacto {
+    list-style-type: none;
+}
+
+.menucontacto li {
+    display: inline;
+    position: relative;
+    margin-left: 12rem;
+}
+
+.titulo-contacto {
+    margin-left: 16rem;
+    margin-top: 50px;
+}
+
+.formulario {
+    margin-left: 16rem;
+    margin-top: 50px;
+}
+
+.pie {
+    margin-left: 0px;
+    margin-top: 50px;
+}
+
+/*MEDIA QUERIES INICIO*/
